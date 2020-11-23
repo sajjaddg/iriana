@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.TilePane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="629.0" prefWidth="604.0" style="-fx-background-color: #090D28;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Home">
+   <children>
+      <ScrollPane fx:id="scrollpane" layoutX="19.0" layoutY="77.0" prefHeight="533.0" prefWidth="590.0" stylesheets="@style.css">
+         <content>
+            <TilePane fx:id="homeTilePane" prefHeight="531.0" prefWidth="587.0" styleClass="scroll-pane" stylesheets="@style.css" />
+         </content>
+         <styleClass>
+            <String fx:value="scroll-bar" />
+            <String fx:value="scroll-pane" />
+         </styleClass>
+      </ScrollPane>
+      <TextField layoutX="23.0" layoutY="22.0" prefHeight="39.0" prefWidth="263.0" promptText=" Find something..." styleClass="sercheTextFild" stylesheets="@style.css" />
+      <Pane layoutX="308.0" layoutY="24.0" prefHeight="39.0" prefWidth="272.0" style="-fx-background-color: #181C3A; -fx-background-radius: 10px;">
+         <children>
+            <ImageView fitHeight="24.0" fitWidth="23.0" layoutX="16.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@icon/calendar_14_100px.png" />
+               </image>
+            </ImageView>
+            <Label fx:id="roozLbl" layoutX="22.0" layoutY="13.0" text="1" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font size="10.0" />
+               </font>
+            </Label>
+            <Label fx:id="dataLbl" layoutX="45.0" layoutY="6.0" text="Date" textFill="WHITE">
+               <font>
+                  <Font size="17.0" />
+               </font></Label>
+         </children>
+      </Pane>
+   </children>
+</Pane>

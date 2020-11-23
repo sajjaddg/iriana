@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<fx:root prefHeight="152.0" prefWidth="107.0" type="AnchorPane" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane fx:id="pane" prefHeight="170.0" prefWidth="180.0" style="-fx-background-color: #181C3A; -fx-background-radius: 6px;">
+         <children>
+            <ImageView fx:id="IVicon" fitHeight="77.0" fitWidth="67.0" layoutX="56.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true" />
+            <Line endX="87.0" layoutX="56.0" layoutY="87.0" startX="-20.5" stroke="#2d314c" />
+            <TextFlow fx:id="CompanyName" layoutX="4.0" layoutY="91.0" prefHeight="25.0" prefWidth="171.0" textAlignment="CENTER" />
+            <TextFlow fx:id="Product_Name" layoutX="83.0" layoutY="124.0" prefHeight="25.0" prefWidth="85.0" textAlignment="RIGHT" />
+            <Button fx:id="fullview" layoutY="135.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="26.0" style="-fx-background-color: transparent;">
+               <graphic>
+                  <ImageView fitHeight="25.0" fitWidth="26.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@icon/enlarge_52px.png" />
+                     </image>
+                  </ImageView>
+               </graphic></Button>
+            <Button fx:id="history_Btn" layoutX="139.0" layoutY="1.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="47.0" style="-fx-background-color: transparent;">
+               <graphic>
+                  <ImageView fitHeight="32.0" fitWidth="31.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@icon/history.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+         </children>
+      </Pane>
+   </children>
+</fx:root>

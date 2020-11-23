@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<fx:root prefHeight="118.0" prefWidth="503.0" type="AnchorPane" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane prefHeight="125.0" prefWidth="503.0" style="-fx-border-color: #2D314C; -fx-border-radius: 6px; -fx-border-width: 3px;">
+         <children>
+            <TextFlow fx:id="Description" layoutX="100.0" layoutY="15.0" prefHeight="96.0" prefWidth="393.0" textAlignment="RIGHT" />
+            <Line endX="23.5" endY="-72.0" layoutX="68.0" layoutY="63.0" startX="23.5" startY="62.0" stroke="#2d314c" strokeWidth="2.0" />
+            <ImageView fx:id="Result" fitHeight="85.0" fitWidth="75.0" layoutX="10.0" layoutY="33.0" pickOnBounds="true" preserveRatio="true" />
+            <TextFlow fx:id="Type" layoutX="10.0" layoutY="9.0" prefHeight="28.0" prefWidth="75.0" textAlignment="CENTER" />
+         </children>
+      </Pane>
+   </children>
+</fx:root>
